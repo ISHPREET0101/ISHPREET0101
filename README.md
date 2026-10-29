@@ -7,6 +7,7 @@
 <p align="center">
 <a href="https://www.linkedin.com/in/ishpreet-singh-351224322"><img src="assets/linkedin.svg" alt="LinkedIn" /></a>
 <a href="#projects"><img src="assets/projects.svg" alt="Projects" /></a>
+<a href="mailto:s.ishpreet0177@gmail.com"><img src="assets/gmail.svg" alt="Gmail: s.ishpreet0177@gmail.com" /></a>
 </p>
 
 <br/>
