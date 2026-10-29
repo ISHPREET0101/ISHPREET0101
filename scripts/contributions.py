@@ -1,6 +1,7 @@
 """Render a contribution calendar with a small animated snake. Standard library only."""
 import json
 import os
+import sys
 from pathlib import Path
 from urllib.request import Request, urlopen
 
@@ -11,7 +12,9 @@ if os.environ.get('GH_TOKEN'):
     with urlopen(request, timeout=30) as response:
         payload = json.load(response)
 else:
-    payload = json.loads((ROOT.parent/'tmp/contributions.json').read_text(encoding='utf-8-sig'))
+    if len(sys.argv) != 2:
+        raise SystemExit('Set GH_TOKEN or pass a contribution-calendar JSON snapshot path.')
+    payload = json.loads(Path(sys.argv[1]).read_text(encoding='utf-8-sig'))
 if payload.get('errors'):
     raise RuntimeError('Contribution query failed; previous graphic preserved.')
 weeks = payload['data']['user']['contributionsCollection']['contributionCalendar']['weeks']
