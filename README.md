@@ -4,7 +4,6 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ishpreet-singh-351224322"><b>LinkedIn ↗</b></a> &nbsp; · &nbsp;
-  <a href="https://www.linkedin.com/in/ishpreet-singh-351224322"><b>Connect ↗</b></a> &nbsp; · &nbsp;
   <a href="#selected-work"><b>Selected work</b></a> &nbsp; · &nbsp;
   <a href="#how-the-projects-work"><b>System diagrams</b></a>
 </p>
@@ -199,6 +198,5 @@ Classifier evaluation measures agreement with the selected segmentation model, n
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ishpreet-singh-351224322">LinkedIn</a> ·
-  <a href="https://www.linkedin.com/in/ishpreet-singh-351224322">Let’s connect</a> ·
   <a href="https://github.com/ISHPREET0101?tab=repositories">Explore my repositories</a>
 </p>
