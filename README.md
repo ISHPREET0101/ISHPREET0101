@@ -131,7 +131,7 @@ Completed these courses from DeepLearning.AI and Stanford Online on Coursera:
 ## Toolkit
 
 <p align="center">
-<img src="assets/python.svg" alt="PYTHON" /> <img src="assets/typescript.svg" alt="TYPESCRIPT" /> <img src="assets/kotlin.svg" alt="KOTLIN" /> <img src="assets/cpp.svg" alt="C++" /> <img src="assets/javascript.svg" alt="JAVASCRIPT" /> <img src="assets/sql.svg" alt="SQL" /> <img src="assets/c.svg" alt="C" /> 
+<img src="assets/python.svg" alt="PYTHON" /> <img src="assets/typescript.svg" alt="TYPESCRIPT" /> <img src="assets/kotlin.svg" alt="KOTLIN" /> <img src="assets/cpp.svg" alt="C++" /> <img src="assets/javascript.svg" alt="JAVASCRIPT" /> <img src="assets/sql.svg" alt="SQL" /> <img src="assets/c.svg" alt="C" />
 </p>
 
 <details>

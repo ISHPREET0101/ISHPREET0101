@@ -1,38 +1,52 @@
 [
   {
-    "name": "BlockIT",
-    "url": "https://github.com/ISHPREET0101/BlockIT",
-    "diagram": "flowchart LR\n  A[Drive or folder] --> B[Metadata scanner worker]\n  B --> C[(SQLite scan index)]\n  C --> D[Query worker]\n  D --> E[React views and treemap]\n  A --> F[Filename index worker]\n  F --> G[Explorer search]",
-    "notes": "Scans file metadata; filename search does not inspect document contents."
+    "name": "Teachable Voice Automation",
+    "url": "https://github.com/ISHPREET0101/prism-teachable-voice",
+    "diagram": "flowchart LR\n  A[\"Demonstrate a task\"] --> B[\"Save the steps\"] --> C[\"Give a voice command\"] --> D[\"Match UI and replay\"]"
   },
   {
-    "name": "CircuitSleuth",
-    "url": "https://github.com/ISHPREET0101/circuitsleuth1",
-    "diagram": "flowchart LR\n  A[Reference and test board] --> B{Registration valid?}\n  B -->|No| C[NOT_EVALUABLE]\n  B -->|Yes| D[Detect candidate regions]\n  D --> E[Agent chooses verification tool]\n  E --> F{Enough evidence?}\n  F -->|More needed| E\n  F -->|Yes| G[Verdict with evidence]\n  F -->|Capture needed| H[Operator review / new capture]",
-    "notes": "Collaborative project. Published benchmark uses seeded synthetic boards; it is not factory accuracy."
+    "name": "DeltaProof",
+    "url": "https://github.com/sgoel2be24-cyber/deltaproof",
+    "diagram": "flowchart LR\n  A[\"Client request\"] --> B[\"Local clause retrieval\"] --> C[\"Review cited evidence\"] --> D[\"Simulate impact\"]"
   },
   {
-    "name": "Takumi",
-    "url": "https://github.com/ISHPREET0101/takumi",
-    "diagram": "flowchart LR\n  A[Expert recording] --> B[Local transcription]\n  B --> C[Lesson extraction adapter]\n  C --> D[Validate transcript evidence]\n  D --> E[Expert edits and approves]\n  E --> F[Versioned lesson]\n  F --> G[Guided practice and attempts]",
-    "notes": "Hosted browser demo uses a bundled sample. Custom uploads and AI processing require the local backend."
+    "name": "SpamSentinel",
+    "url": null,
+    "diagram": "flowchart LR\n  A[\"Message\"] --> B[\"Preprocess text\"] --> C[\"Check context and links\"] --> D[\"Flag for review\"]"
   },
   {
     "name": "2D Metaverse",
     "url": "https://2d-metaverse-se.vercel.app/",
-    "diagram": "flowchart LR\n  A[Enter a name and choose an avatar] --> B[Join the shared world]\n  B --> C[Walk around and meet teammates]\n  C --> D[Move close to another player]\n  D --> E[Automatic proximity video call]",
-    "notes": "This diagram shows the public-facing user flow described on the demo landing page. Source is private; the project link opens the live demo. Camera and microphone use is optional when joining."
+    "diagram": "flowchart LR\n  A[\"Choose an avatar\"] --> B[\"Join the world\"] --> C[\"Approach a teammate\"] --> D[\"Video call\"]"
+  },
+  {
+    "name": "BlockIT",
+    "url": "https://github.com/ISHPREET0101/BlockIT",
+    "diagram": "flowchart LR\n  A[\"Choose a drive\"] --> B[\"Scan metadata\"] --> C[\"SQLite index\"] --> D[\"Search and treemap\"]"
+  },
+  {
+    "name": "CircuitSleuth",
+    "url": "https://github.com/ISHPREET0101/circuitsleuth1",
+    "diagram": "flowchart LR\n  A[\"Board and reference\"] --> B[\"Align and detect\"] --> C[\"Verify regions\"] --> D[\"Evidence and review\"]"
   },
   {
     "name": "Synapse Memory Lab",
     "url": "https://github.com/ISHPREET0101/synapse-memory-lab-dataforge-2026",
-    "diagram": "flowchart LR\n  A[Deterministic token stream] --> B[Read prior memory]\n  B --> C[Outer-product state update]\n  C --> D[Neuron and synapse canvases]\n  B --> E[Explicit-history comparison]\n  C --> F[Load and interference experiment]",
-    "notes": "Collaborative educational toy simulations; no official BDH checkpoint or trained-model benchmark is run."
+    "diagram": "flowchart LR\n  A[\"Token stream\"] --> B[\"Update memory\"] --> C[\"Read state\"] --> D[\"Compare outputs\"]"
   },
   {
     "name": "RetailPulse AI",
     "url": "https://github.com/ISHPREET0101/ML-PROJECT",
-    "diagram": "flowchart LR\n  A[Customers / products / sales] --> B[Validate relational data]\n  B --> C[RFM and behavioral features]\n  C --> D[Compare clustering models]\n  D --> E[Interpretable segment profiles]\n  D --> F[Segment-assignment classifier]\n  E --> G[Export analysis artifacts]",
-    "notes": "Classifier evaluation measures agreement with the selected segmentation model, not causal business lift."
+    "diagram": "flowchart LR\n  A[\"Retail data\"] --> B[\"RFM features\"] --> C[\"Compare clusters\"] --> D[\"Segment profiles\"]"
+  },
+  {
+    "name": "JOY PITWALL",
+    "url": "https://github.com/ISHPREET0101/joy-pitwall",
+    "diagram": "flowchart LR\n  A[\"Plan a weekend\"] --> B[\"Log stints and laps\"] --> C[\"Compare runs\"] --> D[\"Review setup\"]"
+  },
+  {
+    "name": "Aegis Alpha",
+    "url": "https://github.com/ISHPREET0101/alpaca-AI-Hackathon",
+    "diagram": "flowchart LR\n  A[\"Market data\"] --> B[\"Candidate spreads\"] --> C[\"Risk checks\"] --> D[\"Paper orders and audit\"]"
   }
 ]
