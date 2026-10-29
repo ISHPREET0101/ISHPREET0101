@@ -38,15 +38,5 @@
     "name": "RetailPulse AI",
     "url": "https://github.com/ISHPREET0101/ML-PROJECT",
     "diagram": "flowchart LR\n  A[\"Retail data\"] --> B[\"RFM features\"] --> C[\"Compare clusters\"] --> D[\"Segment profiles\"]"
-  },
-  {
-    "name": "JOY PITWALL",
-    "url": "https://github.com/ISHPREET0101/joy-pitwall",
-    "diagram": "flowchart LR\n  A[\"Plan a weekend\"] --> B[\"Log stints and laps\"] --> C[\"Compare runs\"] --> D[\"Review setup\"]"
-  },
-  {
-    "name": "Aegis Alpha",
-    "url": "https://github.com/ISHPREET0101/alpaca-AI-Hackathon",
-    "diagram": "flowchart LR\n  A[\"Market data\"] --> B[\"Candidate spreads\"] --> C[\"Risk checks\"] --> D[\"Paper orders and audit\"]"
   }
 ]

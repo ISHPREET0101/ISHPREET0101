@@ -91,24 +91,6 @@ flowchart LR
   A["Retail data"] --> B["RFM features"] --> C["Compare clusters"] --> D["Segment profiles"]
 ```
 
-### [JOY PITWALL](https://github.com/ISHPREET0101/joy-pitwall)
-
-An offline race-weekend app for run plans, stint and lap logs, setup sheets, and engineering calculators. Electron and TypeScript.
-
-```mermaid
-flowchart LR
-  A["Plan a weekend"] --> B["Log stints and laps"] --> C["Compare runs"] --> D["Review setup"]
-```
-
-### [Aegis Alpha](https://github.com/ISHPREET0101/alpaca-AI-Hackathon)
-
-An options-agent project with deterministic risk checks and an audit log. Built with Python and SQLite for paper trading.
-
-```mermaid
-flowchart LR
-  A["Market data"] --> B["Candidate spreads"] --> C["Risk checks"] --> D["Paper orders and audit"]
-```
-
 [More repositories](https://github.com/ISHPREET0101?tab=repositories&type=public)
 
 ## Education and courses
