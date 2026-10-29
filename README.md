@@ -1,20 +1,48 @@
-# Ishpreet Singh Dhamija
+<h1 align="center">Ishpreet Singh Dhamija</h1>
 
-I'm a Computer Engineering student at **Thapar Institute of Engineering and Technology, Patiala**. I work with Python and TypeScript, mostly on machine learning projects, web apps, and desktop software.
+<p align="center"><b>Computer Engineering student at Thapar</b> · machine learning, Android apps, and desktop software</p>
 
-This GitHub has a mix of coursework, hackathon projects, and apps I've worked on with teammates.
+<p align="center">Python and TypeScript · local inference · software projects</p>
 
-[![LinkedIn](assets/linkedin.svg)](https://www.linkedin.com/in/ishpreet-singh-351224322)
+<p align="center">
+<a href="https://www.linkedin.com/in/ishpreet-singh-351224322"><img src="assets/linkedin.svg" alt="LinkedIn" /></a>
+<a href="#projects"><img src="assets/projects.svg" alt="Projects" /></a>
+</p>
 
-## 🔭 Currently
+<br/>
 
-My focus is machine learning and software development. A few parts of that work:
+<p align="center"><a href="#projects">Projects</a> · <a href="#education-and-courses">Education &amp; courses</a> · <a href="#my-contributions">Contributions</a> · <a href="#toolkit">Toolkit</a></p>
 
-- 🧠 Local inference and semantic search in [DeltaProof](https://github.com/sgoel2be24-cyber/deltaproof).
-- 🛠️ Desktop tools, including [BlockIT](https://github.com/ISHPREET0101/BlockIT).
-- 🌐 Interactive browser projects like [2D Metaverse](https://2d-metaverse-se.vercel.app/) and [Synapse Memory Lab](https://ishpreet0101.github.io/synapse-memory-lab-dataforge-2026/).
+---
 
 ## Projects
+
+### [Teachable Voice Automation](https://github.com/ISHPREET0101/prism-teachable-voice)
+
+An Android assistant that learns a task from a demonstration and replays it from a spoken command. It combines local UI matching with model-assisted actions and asks for clarification when needed. Kotlin and Android accessibility APIs. A team project.
+
+```mermaid
+flowchart LR
+  A["Demonstrate a task"] --> B["Save the steps"] --> C["Give a voice command"] --> D["Match UI and replay"]
+```
+
+### [DeltaProof](https://github.com/sgoel2be24-cyber/deltaproof)
+
+A team project for reviewing changes to a project scope. Local MiniLM embeddings find related clauses, show source citations, and support a cost and schedule simulation using reviewer estimates. TypeScript, Transformers.js and ONNX Runtime.
+
+```mermaid
+flowchart LR
+  A["Client request"] --> B["Local clause retrieval"] --> C["Review cited evidence"] --> D["Simulate impact"]
+```
+
+### SpamSentinel
+
+A Python NLP project for flagging spam and phishing in multilingual and code-mixed messages. It uses message context and suspicious-link patterns, with separate preprocessing, inference, API and review components.
+
+```mermaid
+flowchart LR
+  A["Message"] --> B["Preprocess text"] --> C["Check context and links"] --> D["Flag for review"]
+```
 
 ### [2D Metaverse](https://2d-metaverse-se.vercel.app/)
 
@@ -33,17 +61,6 @@ A Windows storage explorer for finding files and seeing what's taking up disk sp
 flowchart LR
   A["Choose a drive"] --> B["Scan metadata"] --> C["SQLite index"] --> D["Search and treemap"]
 ```
-
-### [Takumi](https://github.com/ISHPREET0101/takumi)
-
-Turns a recorded demonstration into a lesson that an expert can edit and approve, with guided practice for the learner. React frontend, Python/FastAPI backend. [Try the sample](https://takumi-two-kohl.vercel.app/); processing your own recordings needs the local backend.
-
-```mermaid
-flowchart LR
-  A["Expert recording"] --> B["Transcribe and draft"] --> C["Expert review"] --> D["Guided practice"]
-```
-
-![Takumi sample practice screen](https://raw.githubusercontent.com/ISHPREET0101/takumi/main/docs/screenshots/refined/practice-1440.png)
 
 ### [CircuitSleuth](https://github.com/ISHPREET0101/circuitsleuth1)
 
@@ -74,21 +91,23 @@ flowchart LR
   A["Retail data"] --> B["RFM features"] --> C["Compare clusters"] --> D["Segment profiles"]
 ```
 
-## Tools I use
+### [JOY PITWALL](https://github.com/ISHPREET0101/joy-pitwall)
 
-- **Languages:** Python, TypeScript, JavaScript, SQL, C++, C
-- **ML and data:** pandas, NumPy, scikit-learn, PyTorch, OpenCV, Jupyter
-- **Apps and APIs:** React, Electron, FastAPI, Flask, HTML/CSS, Tailwind
-- **Storage and tooling:** SQLite, Cloudflare D1, Git, Linux, Vite, Vitest
+An offline race-weekend app for run plans, stint and lap logs, setup sheets, and engineering calculators. Electron and TypeScript.
 
-I've also used Transformers.js and ONNX Runtime for local sentence embeddings and semantic search.
+```mermaid
+flowchart LR
+  A["Plan a weekend"] --> B["Log stints and laps"] --> C["Compare runs"] --> D["Review setup"]
+```
 
-## Other projects I've worked on
+### [Aegis Alpha](https://github.com/ISHPREET0101/alpaca-AI-Hackathon)
 
-- [DeltaProof](https://github.com/sgoel2be24-cyber/deltaproof) — team project for reviewing scope changes using local embeddings, source citations, and a cost/schedule simulator.
-- [Teachable Voice](https://github.com/ISHPREET0101/prism-teachable-voice) — team project for teaching an Android task by demonstration and replaying it with a spoken command.
-- [JOY PITWALL](https://github.com/ISHPREET0101/joy-pitwall) — an offline app for race-weekend plans, stint logs, and setup sheets.
-- [Aegis Alpha](https://github.com/ISHPREET0101/alpaca-AI-Hackathon) — an options-agent project with risk checks and an audit log, built for paper trading.
+An options-agent project with deterministic risk checks and an audit log. Built with Python and SQLite for paper trading.
+
+```mermaid
+flowchart LR
+  A["Market data"] --> B["Candidate spreads"] --> C["Risk checks"] --> D["Paper orders and audit"]
+```
 
 [More repositories](https://github.com/ISHPREET0101?tab=repositories&type=public)
 
@@ -108,3 +127,37 @@ Completed these courses from DeepLearning.AI and Stanford Online on Coursera:
 ![My GitHub contribution calendar with a snake animation](assets/contributions.svg)
 
 <sub>Contribution snapshot: 29 October 2026. The snake is a decorative animation over the calendar.</sub>
+
+## Toolkit
+
+<p align="center">
+<img src="assets/python.svg" alt="PYTHON" /> <img src="assets/typescript.svg" alt="TYPESCRIPT" /> <img src="assets/kotlin.svg" alt="KOTLIN" /> <img src="assets/cpp.svg" alt="C++" /> <img src="assets/javascript.svg" alt="JAVASCRIPT" /> <img src="assets/sql.svg" alt="SQL" /> <img src="assets/c.svg" alt="C" /> 
+</p>
+
+<details>
+<summary><b>AI and local inference</b>: embeddings, retrieval and model integration</summary>
+
+NLP, sentence embeddings, semantic search, MiniLM, Transformers.js, ONNX Runtime, Android voice automation.
+
+</details>
+
+<details>
+<summary><b>Machine learning and data</b>: analysis, modelling and evaluation</summary>
+
+pandas, NumPy, scikit-learn, PyTorch, OpenCV, Jupyter, RFM features and clustering.
+
+</details>
+
+<details>
+<summary><b>Backend, frontend and storage</b>: apps, APIs and databases</summary>
+
+React, Electron, FastAPI, Flask, REST APIs, SQLite, Cloudflare D1, Drizzle ORM, HTML, CSS, Tailwind CSS and Android AccessibilityService.
+
+</details>
+
+<details>
+<summary><b>Development tools</b>: version control, workers and testing</summary>
+
+Git, GitHub, Linux, Web Workers, Vite and Vitest.
+
+</details>
