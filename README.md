@@ -76,8 +76,6 @@ flowchart LR
   A["Board and reference"] --> B["Align and detect"] --> C["Verify regions"] --> D["Evidence and review"]
 ```
 
-![CircuitSleuth inspection workspace](https://raw.githubusercontent.com/ISHPREET0101/circuitsleuth1/main/docs/screenshots/workspace.png)
-
 ### [Synapse Memory Lab](https://github.com/ISHPREET0101/synapse-memory-lab-dataforge-2026)
 
 An interactive explanation of attention and memory, built as a team project for DataForge. Change decay or memory load and watch what happens in the toy simulations. [Open the labs](https://ishpreet0101.github.io/synapse-memory-lab-dataforge-2026/).
