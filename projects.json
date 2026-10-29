@@ -1,0 +1,158 @@
+[
+  {
+    "slug": "blockit",
+    "name": "BlockIT",
+    "category": "DESKTOP / LOCAL FIRST",
+    "color": "#64e5b1",
+    "repo": "ISHPREET0101/BlockIT",
+    "lines": [
+      "A clearer view of your disk.",
+      "Fast filename search. Interactive treemaps."
+    ],
+    "stack": "Electron · React · TypeScript · SQLite",
+    "status": "Windows portable release",
+    "short": [
+      "File metadata",
+      "Workers + index",
+      "Storage insights"
+    ],
+    "flow": [
+      "Choose a drive",
+      "Scan metadata",
+      "SQLite + workers",
+      "Explore + search"
+    ],
+    "mermaid": "flowchart LR\n  A[Drive or folder] --> B[Metadata scanner worker]\n  B --> C[(SQLite scan index)]\n  C --> D[Query worker]\n  D --> E[React views and treemap]\n  A --> F[Filename index worker]\n  F --> G[Explorer search]",
+    "boundary": "Scans file metadata; filename search does not inspect document contents."
+  },
+  {
+    "slug": "circuitsleuth",
+    "name": "CircuitSleuth",
+    "category": "COMPUTER VISION / TEAM PROJECT",
+    "color": "#70cfff",
+    "repo": "ISHPREET0101/circuitsleuth1",
+    "lines": [
+      "Inspect the board. Question the evidence.",
+      "Adaptive PCB inspection with human review."
+    ],
+    "stack": "Python · OpenCV · FastAPI · React · MCP",
+    "status": "Synthetic benchmark documented",
+    "short": [
+      "Align boards",
+      "Verify regions",
+      "Evidence verdict"
+    ],
+    "flow": [
+      "Board + reference",
+      "Align + detect",
+      "Select next tool",
+      "Verdict / review"
+    ],
+    "mermaid": "flowchart LR\n  A[Reference and test board] --> B{Registration valid?}\n  B -->|No| C[NOT_EVALUABLE]\n  B -->|Yes| D[Detect candidate regions]\n  D --> E[Agent chooses verification tool]\n  E --> F{Enough evidence?}\n  F -->|More needed| E\n  F -->|Yes| G[Verdict with evidence]\n  F -->|Capture needed| H[Operator review / new capture]",
+    "boundary": "Collaborative project. Published benchmark uses seeded synthetic boards; it is not factory accuracy."
+  },
+  {
+    "slug": "takumi",
+    "name": "Takumi",
+    "category": "APPLIED AI / EXPERT KNOWLEDGE",
+    "color": "#ff9a8b",
+    "repo": "ISHPREET0101/takumi",
+    "lines": [
+      "Turn demonstrations into guided practice.",
+      "Capture the reasoning behind expert work."
+    ],
+    "stack": "React · FastAPI · Whisper · SQLite",
+    "status": "Sample demo + local processing",
+    "short": [
+      "Demonstration",
+      "Expert review",
+      "Guided practice"
+    ],
+    "flow": [
+      "Record a task",
+      "Transcribe + draft",
+      "Expert approves",
+      "Guided practice"
+    ],
+    "mermaid": "flowchart LR\n  A[Expert recording] --> B[Local transcription]\n  B --> C[Lesson extraction adapter]\n  C --> D[Validate transcript evidence]\n  D --> E[Expert edits and approves]\n  E --> F[Versioned lesson]\n  F --> G[Guided practice and attempts]",
+    "boundary": "Hosted browser demo uses a bundled sample. Custom uploads and AI processing require the local backend."
+  },
+  {
+    "slug": "opendoor",
+    "name": "OpenDoor",
+    "category": "FULL STACK / HUMAN REVIEW",
+    "color": "#c2a7ff",
+    "repo": "ISHPREET0101/opendoor-calle",
+    "lines": [
+      "Better directories start with evidence.",
+      "Review every change before publication."
+    ],
+    "stack": "TypeScript · React · Cloudflare D1",
+    "status": "Deterministic verification simulation",
+    "short": [
+      "Candidate facts",
+      "Field decisions",
+      "Audited revision"
+    ],
+    "flow": [
+      "Bounded purpose",
+      "Evidence + facts",
+      "Human decisions",
+      "Publish revision"
+    ],
+    "mermaid": "flowchart LR\n  A[Authorized verification plan] --> B[Deterministic call fixture]\n  B --> C[Evidence-linked candidate facts]\n  C --> D[Quarantine conflicts]\n  D --> E[Human field decisions]\n  E --> F[Atomic version check]\n  F --> G[(D1 revision + audit event)]",
+    "boundary": "The demonstrated review flow uses simulated calls. Live CALL-E creation is not a validated end-to-end integration."
+  },
+  {
+    "slug": "synapse",
+    "name": "Synapse Memory Lab",
+    "category": "ML / INTERACTIVE EXPLAINER",
+    "color": "#f3cf75",
+    "repo": "ISHPREET0101/synapse-memory-lab-dataforge-2026",
+    "lines": [
+      "Make attention and memory visible.",
+      "Explore recurrence, decay and interference."
+    ],
+    "stack": "TypeScript · Canvas · Vite · Vitest",
+    "status": "Interactive toy-model labs",
+    "short": [
+      "Token stream",
+      "Memory update",
+      "Read + compare"
+    ],
+    "flow": [
+      "Seeded tokens",
+      "Outer-product write",
+      "Query fixed state",
+      "Observe interference"
+    ],
+    "mermaid": "flowchart LR\n  A[Deterministic token stream] --> B[Read prior memory]\n  B --> C[Outer-product state update]\n  C --> D[Neuron and synapse canvases]\n  B --> E[Explicit-history comparison]\n  C --> F[Load and interference experiment]",
+    "boundary": "Collaborative educational toy simulations; no official BDH checkpoint or trained-model benchmark is run."
+  },
+  {
+    "slug": "retailpulse",
+    "name": "RetailPulse AI",
+    "category": "DATA SCIENCE / SEGMENTATION",
+    "color": "#82aaff",
+    "repo": "ISHPREET0101/ML-PROJECT",
+    "lines": [
+      "From retail tables to customer insight.",
+      "Explain the segments behind the numbers."
+    ],
+    "stack": "Python · Pandas · scikit-learn · Jupyter",
+    "status": "Reproducible notebook + artifacts",
+    "short": [
+      "Retail data",
+      "RFM + clustering",
+      "Segment profiles"
+    ],
+    "flow": [
+      "Validate tables",
+      "RFM + behavior",
+      "Compare clusters",
+      "Profiles + classifier"
+    ],
+    "mermaid": "flowchart LR\n  A[Customers / products / sales] --> B[Validate relational data]\n  B --> C[RFM and behavioral features]\n  C --> D[Compare clustering models]\n  D --> E[Interpretable segment profiles]\n  D --> F[Segment-assignment classifier]\n  E --> G[Export analysis artifacts]",
+    "boundary": "Classifier evaluation measures agreement with the selected segmentation model, not causal business lift."
+  }
+]
