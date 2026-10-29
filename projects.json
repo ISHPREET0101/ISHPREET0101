@@ -78,30 +78,30 @@
     "boundary": "Hosted browser demo uses a bundled sample. Custom uploads and AI processing require the local backend."
   },
   {
-    "slug": "opendoor",
-    "name": "OpenDoor",
-    "category": "FULL STACK / HUMAN REVIEW",
+    "slug": "metaverse",
+    "name": "2D Metaverse",
+    "category": "MULTIPLAYER / VIRTUAL OFFICE",
     "color": "#c2a7ff",
-    "repo": "ISHPREET0101/opendoor-calle",
+    "url": "https://2d-metaverse-se.vercel.app/",
     "lines": [
-      "Better directories start with evidence.",
-      "Review every change before publication."
+      "Meet teammates in a shared world.",
+      "Walk nearby to start a video call."
     ],
-    "stack": "TypeScript · React · Cloudflare D1",
-    "status": "Deterministic verification simulation",
+    "stack": "Browser avatars · Shared world · Proximity video",
+    "status": "Explore the public demo",
     "short": [
-      "Candidate facts",
-      "Field decisions",
-      "Audited revision"
+      "Choose avatar",
+      "Explore",
+      "Meet nearby"
     ],
     "flow": [
-      "Bounded purpose",
-      "Evidence + facts",
-      "Human decisions",
-      "Publish revision"
+      "Name + avatar",
+      "Join shared world",
+      "Approach teammate",
+      "Start video call"
     ],
-    "mermaid": "flowchart LR\n  A[Authorized verification plan] --> B[Deterministic call fixture]\n  B --> C[Evidence-linked candidate facts]\n  C --> D[Quarantine conflicts]\n  D --> E[Human field decisions]\n  E --> F[Atomic version check]\n  F --> G[(D1 revision + audit event)]",
-    "boundary": "The demonstrated review flow uses simulated calls. Live CALL-E creation is not a validated end-to-end integration."
+    "mermaid": "flowchart LR\n  A[Enter a name and choose an avatar] --> B[Join the shared world]\n  B --> C[Walk around and meet teammates]\n  C --> D[Move close to another player]\n  D --> E[Automatic proximity video call]",
+    "boundary": "This diagram shows the public-facing user flow described on the demo landing page. Source is private; the project link opens the live demo. Camera and microphone use is optional when joining."
   },
   {
     "slug": "synapse",

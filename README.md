@@ -14,7 +14,7 @@ I'm **Ishpreet**, a Computer Engineering student at **Thapar Institute of Engine
 
 I enjoy the part where a working model becomes a useful product: responsive interfaces, clear explanations, reliable data flows, and a person who can understand and review the result. My projects range from local semantic search and computer vision to storage explorers and interactive ML labs.
 
-**Currently exploring:** evidence-backed AI workflows, local inference, and better ways to explain complex systems.  
+**Currently exploring:** evidence-backed AI workflows, local inference, and better ways to explain complex systems.<br/>
 **Happy to connect about:** AI/ML projects, engineering collaborations, and practical software problems.
 
 ## My toolkit
@@ -43,9 +43,9 @@ A few projects that show how I approach products, data, and engineering. Follow 
 
 <p align="center"><a href="https://github.com/ISHPREET0101/BlockIT"><b>BlockIT ↗</b></a> &nbsp; · &nbsp; <a href="https://github.com/ISHPREET0101/circuitsleuth1"><b>CircuitSleuth ↗</b></a></p>
 
-<picture><source media="(max-width: 600px)" srcset="assets/gallery-2-mobile.svg" /><img src="assets/gallery-2.svg" width="100%" alt="Takumi: Turn demonstrations into guided practice. Capture the reasoning behind expert work. Sample demo + local processing | OpenDoor: Better directories start with evidence. Review every change before publication. Deterministic verification simulation" /></picture>
+<picture><source media="(max-width: 600px)" srcset="assets/gallery-2-mobile.svg" /><img src="assets/gallery-2.svg" width="100%" alt="Takumi: Turn demonstrations into guided practice. Capture the reasoning behind expert work. Sample demo + local processing | 2D Metaverse: Meet teammates in a shared world. Walk nearby to start a video call. Explore the public demo" /></picture>
 
-<p align="center"><a href="https://github.com/ISHPREET0101/takumi"><b>Takumi ↗</b></a> &nbsp; · &nbsp; <a href="https://github.com/ISHPREET0101/opendoor-calle"><b>OpenDoor ↗</b></a></p>
+<p align="center"><a href="https://github.com/ISHPREET0101/takumi"><b>Takumi ↗</b></a> &nbsp; · &nbsp; <a href="https://2d-metaverse-se.vercel.app/"><b>2D Metaverse ↗</b></a></p>
 
 <picture><source media="(max-width: 600px)" srcset="assets/gallery-3-mobile.svg" /><img src="assets/gallery-3.svg" width="100%" alt="Synapse Memory Lab: Make attention and memory visible. Explore recurrence, decay and interference. Interactive toy-model labs | RetailPulse AI: From retail tables to customer insight. Explain the segments behind the numbers. Reproducible notebook + artifacts" /></picture>
 
@@ -56,12 +56,13 @@ A few projects that show how I approach products, data, and engineering. Follow 
 <p align="center">
   <a href="https://github.com/ISHPREET0101/BlockIT/releases/latest">Download BlockIT</a> &nbsp; · &nbsp;
   <a href="https://takumi-two-kohl.vercel.app/">Takumi sample demo</a> &nbsp; · &nbsp;
+  <a href="https://2d-metaverse-se.vercel.app/">Enter 2D Metaverse</a> &nbsp; · &nbsp;
   <a href="https://ishpreet0101.github.io/synapse-memory-lab-dataforge-2026/">Explore Synapse Memory Lab</a>
 </p>
 
 ## How the projects work
 
-<picture><source media="(max-width: 600px)" srcset="assets/project-flows-mobile.svg" /><img src="assets/project-flows.svg" width="100%" alt="Six project workflows: BlockIT turns file metadata into searchable storage insights; CircuitSleuth verifies PCB regions; Takumi turns recordings into expert-approved lessons; OpenDoor reviews evidence before publishing; Synapse visualizes memory updates; RetailPulse converts retail data into segment profiles." /></picture>
+<picture><source media="(max-width: 600px)" srcset="assets/project-flows-mobile.svg" /><img src="assets/project-flows.svg" width="100%" alt="Six project workflows: BlockIT turns file metadata into searchable storage insights; CircuitSleuth verifies PCB regions; Takumi turns recordings into expert-approved lessons; 2D Metaverse lets teammates explore a shared world and start proximity video calls; Synapse visualizes memory updates; RetailPulse converts retail data into segment profiles." /></picture>
 
 <details>
 <summary><b>Go deeper: architecture, design choices, and demo boundaries</b></summary>
@@ -110,19 +111,17 @@ flowchart LR
 
 Hosted browser demo uses a bundled sample. Custom uploads and AI processing require the local backend.
 
-### [OpenDoor](https://github.com/ISHPREET0101/opendoor-calle)
+### [2D Metaverse](https://2d-metaverse-se.vercel.app/)
 
 ```mermaid
 flowchart LR
-  A[Authorized verification plan] --> B[Deterministic call fixture]
-  B --> C[Evidence-linked candidate facts]
-  C --> D[Quarantine conflicts]
-  D --> E[Human field decisions]
-  E --> F[Atomic version check]
-  F --> G[(D1 revision + audit event)]
+  A[Enter a name and choose an avatar] --> B[Join the shared world]
+  B --> C[Walk around and meet teammates]
+  C --> D[Move close to another player]
+  D --> E[Automatic proximity video call]
 ```
 
-The demonstrated review flow uses simulated calls. Live CALL-E creation is not a validated end-to-end integration.
+This diagram shows the public-facing user flow described on the demo landing page. Source is private; the project link opens the live demo. Camera and microphone use is optional when joining.
 
 ### [Synapse Memory Lab](https://github.com/ISHPREET0101/synapse-memory-lab-dataforge-2026)
 

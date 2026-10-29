@@ -14,10 +14,10 @@ Structural inspiration, without copying artwork or prose:
 ## Content sources and limits
 
 - Identity, education, skills, certificates and finalist milestone: supplied resume. The finalist statement is resume-supplied; it was not independently verified against an organizer list.
-- Featured projects and workflow diagrams: public project READMEs inspected on 2026-10-29. The diagrams summarize documented behavior; they do not certify new runtime tests.
+- Featured projects and workflow diagrams: public project READMEs inspected on 2026-10-29. The 2D Metaverse entry uses only features visible on its public demo landing page: names, avatars, walking, teammates, optional camera/microphone and proximity video calls. It shows a user flow rather than private implementation architecture. Diagrams do not certify new runtime tests.
 - CircuitSleuth, Synapse, Teachable Voice and DeltaProof are explicitly presented as collaborative work. Linking a repository does not attribute its entire implementation to one person.
 - BlockIT release availability was checked through GitHub's releases API. Other application runtime, model metrics and hosted backends were not retested to build this profile.
-- Takumi's public site is sample-only; OpenDoor's demonstrated call flow is simulated; Synapse runs toy simulations; Aegis Alpha is paper-trading software.
+- Takumi's public site is sample-only; Synapse runs toy simulations; Aegis Alpha is paper-trading software. The 2D Metaverse link opens its public demo; its source remains private.
 - Private repositories and the resume's phone number are intentionally absent from this public profile.
 
 ## Updating
