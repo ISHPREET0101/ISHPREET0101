@@ -1,73 +1,71 @@
-<p align="center">
-  <picture><source media="(max-width: 600px)" srcset="assets/hero-mobile.svg" /><img src="assets/hero.svg" width="100%" alt="Ishpreet Singh Dhamija. Building useful AI and making complex systems clear. Computer Engineering at Thapar." /></picture>
-</p>
+# Hi, I'm Ishpreet
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/ishpreet-singh-351224322"><b>LinkedIn ↗</b></a> &nbsp; · &nbsp;
-  <a href="#selected-work"><b>Selected work</b></a> &nbsp; · &nbsp;
-  <a href="#how-the-projects-work"><b>System diagrams</b></a>
-</p>
+I'm a Computer Engineering student at **Thapar Institute of Engineering and Technology, Patiala**. I work with Python and TypeScript, mostly on machine learning projects, web apps, and desktop software.
 
-## A little about me
+This is a mix of coursework, hackathon projects, and apps I've worked on. Some are team projects; the linked repositories have the contributors and setup details.
 
-I'm **Ishpreet**, a Computer Engineering student at **Thapar Institute of Engineering and Technology, Patiala** (B.Tech., 2024–present). I build across **applied AI, machine learning, full-stack products, and desktop tools**.
+[LinkedIn](https://www.linkedin.com/in/ishpreet-singh-351224322)
 
-I enjoy the part where a working model becomes a useful product: responsive interfaces, clear explanations, reliable data flows, and a person who can understand and review the result. My projects range from local semantic search and computer vision to storage explorers and interactive ML labs.
+## Projects
 
-**Currently exploring:** evidence-backed AI workflows, local inference, and better ways to explain complex systems.<br/>
-**Happy to connect about:** AI/ML projects, engineering collaborations, and practical software problems.
+- **[2D Metaverse](https://2d-metaverse-se.vercel.app/)** — A shared virtual office where you choose an avatar and walk around with teammates. Move close to someone and a video call starts. The link opens the demo; the source is private.
 
-## My toolkit
+- **[BlockIT](https://github.com/ISHPREET0101/BlockIT)** — A Windows storage explorer for finding files and seeing what's taking up disk space. Built with Electron, React, TypeScript and SQLite. [Download](https://github.com/ISHPREET0101/BlockIT/releases/latest).
 
-<picture><source media="(max-width: 600px)" srcset="assets/stack-mobile.svg" /><img src="assets/stack.svg" width="100%" alt="Languages: Python, TypeScript, SQL, JavaScript, C++, C. AI/ML: PyTorch, scikit-learn, OpenCV, NLP, embeddings. Product: React, Electron, Tailwind, FastAPI, Flask, REST. Data/tools: SQLite, Cloudflare D1, Drizzle, Git, Linux, Web Workers." /></picture>
+- **[Takumi](https://github.com/ISHPREET0101/takumi)** — Turns a recorded demonstration into a lesson that an expert can edit and approve, with guided practice for the learner. React frontend, Python/FastAPI backend. [Try the sample](https://takumi-two-kohl.vercel.app/); processing your own recordings needs the local backend.
+
+- **[CircuitSleuth](https://github.com/ISHPREET0101/circuitsleuth1)** — A team project for PCB inspection using OpenCV. It compares a board against a reference, checks suspicious regions, and keeps the evidence for review. The documented benchmark uses synthetic boards.
+
+- **[Synapse Memory Lab](https://github.com/ISHPREET0101/synapse-memory-lab-dataforge-2026)** — An interactive explanation of attention and memory, built as a team project for DataForge. Change decay or memory load and watch what happens in the toy simulations. [Open the labs](https://ishpreet0101.github.io/synapse-memory-lab-dataforge-2026/).
+
+- **[RetailPulse AI](https://github.com/ISHPREET0101/ML-PROJECT)** — Retail customer segmentation using RFM features and clustering. The notebook covers data checks, model comparisons, and customer segment profiles.
 
 <details>
-<summary><b>The stack, in context</b></summary>
+<summary>A couple of screenshots</summary>
 
-| Area | Technologies I work with |
-| :--- | :--- |
-| Languages | Python, TypeScript, JavaScript, SQL, C++, C |
-| Data science & ML | Pandas, NumPy, scikit-learn, PyTorch, Jupyter, NLP |
-| Local AI & vision | Sentence embeddings, semantic search, Transformers.js, ONNX Runtime, OpenCV |
-| Frontend & desktop | React, Electron, HTML, CSS, Tailwind CSS, Canvas |
-| APIs & persistence | FastAPI, Flask, REST APIs, SQLite, Cloudflare D1, Drizzle ORM |
-| Engineering tools | Git, GitHub, Linux, Web Workers, Vite, Vitest |
+**Takumi:** the oscilloscope practice screen in the sample lesson.
+
+![Takumi practice screen](https://raw.githubusercontent.com/ISHPREET0101/takumi/main/docs/screenshots/refined/practice-1440.png)
+
+**CircuitSleuth:** the inspection workspace, with board regions and the agent's evidence trail.
+
+![CircuitSleuth inspection workspace](https://raw.githubusercontent.com/ISHPREET0101/circuitsleuth1/main/docs/screenshots/workspace.png)
 
 </details>
 
-## Selected work
+## Tools I use
 
-A few projects that show how I approach products, data, and engineering. Follow the links beneath each pair to explore the source and documentation.
+- **Languages:** Python, TypeScript, JavaScript, SQL, C++, C
+- **ML and data:** pandas, NumPy, scikit-learn, PyTorch, OpenCV, Jupyter
+- **Apps and APIs:** React, Electron, FastAPI, Flask, HTML/CSS, Tailwind
+- **Storage and tooling:** SQLite, Cloudflare D1, Git, Linux, Vite, Vitest
 
-<picture><source media="(max-width: 600px)" srcset="assets/gallery-1-mobile.svg" /><img src="assets/gallery-1.svg" width="100%" alt="BlockIT: A clearer view of your disk. Fast filename search. Interactive treemaps. Windows portable release | CircuitSleuth: Inspect the board. Question the evidence. Adaptive PCB inspection with human review. Synthetic benchmark documented" /></picture>
+I've also used Transformers.js and ONNX Runtime for local sentence embeddings and semantic search.
 
-<p align="center"><a href="https://github.com/ISHPREET0101/BlockIT"><b>BlockIT ↗</b></a> &nbsp; · &nbsp; <a href="https://github.com/ISHPREET0101/circuitsleuth1"><b>CircuitSleuth ↗</b></a></p>
+## Other projects I've worked on
 
-<picture><source media="(max-width: 600px)" srcset="assets/gallery-2-mobile.svg" /><img src="assets/gallery-2.svg" width="100%" alt="Takumi: Turn demonstrations into guided practice. Capture the reasoning behind expert work. Sample demo + local processing | 2D Metaverse: Meet teammates in a shared world. Walk nearby to start a video call. Explore the public demo" /></picture>
+- [DeltaProof](https://github.com/sgoel2be24-cyber/deltaproof) — team project for reviewing scope changes using local embeddings, source citations, and a cost/schedule simulator.
+- [Teachable Voice](https://github.com/ISHPREET0101/prism-teachable-voice) — team project for teaching an Android task by demonstration and replaying it with a spoken command.
+- [JOY PITWALL](https://github.com/ISHPREET0101/joy-pitwall) — an offline app for race-weekend plans, stint logs, and setup sheets.
+- [Aegis Alpha](https://github.com/ISHPREET0101/alpaca-AI-Hackathon) — an options-agent project with risk checks and an audit log, built for paper trading.
 
-<p align="center"><a href="https://github.com/ISHPREET0101/takumi"><b>Takumi ↗</b></a> &nbsp; · &nbsp; <a href="https://2d-metaverse-se.vercel.app/"><b>2D Metaverse ↗</b></a></p>
+[More repositories](https://github.com/ISHPREET0101?tab=repositories&type=public)
 
-<picture><source media="(max-width: 600px)" srcset="assets/gallery-3-mobile.svg" /><img src="assets/gallery-3.svg" width="100%" alt="Synapse Memory Lab: Make attention and memory visible. Explore recurrence, decay and interference. Interactive toy-model labs | RetailPulse AI: From retail tables to customer insight. Explain the segments behind the numbers. Reproducible notebook + artifacts" /></picture>
+## Education and courses
 
-<p align="center"><a href="https://github.com/ISHPREET0101/synapse-memory-lab-dataforge-2026"><b>Synapse Memory Lab ↗</b></a> &nbsp; · &nbsp; <a href="https://github.com/ISHPREET0101/ML-PROJECT"><b>RetailPulse AI ↗</b></a></p>
+**B.Tech. Computer Engineering, Thapar** · 2024–present<br/>
+**Finalist, DATA FORGE, IIT Kharagpur** · [Project](https://github.com/ISHPREET0101/synapse-memory-lab-dataforge-2026)
 
+Completed these courses from DeepLearning.AI and Stanford Online on Coursera:
 
-
-<p align="center">
-  <a href="https://github.com/ISHPREET0101/BlockIT/releases/latest">Download BlockIT</a> &nbsp; · &nbsp;
-  <a href="https://takumi-two-kohl.vercel.app/">Takumi sample demo</a> &nbsp; · &nbsp;
-  <a href="https://2d-metaverse-se.vercel.app/">Enter 2D Metaverse</a> &nbsp; · &nbsp;
-  <a href="https://ishpreet0101.github.io/synapse-memory-lab-dataforge-2026/">Explore Synapse Memory Lab</a>
-</p>
-
-## How the projects work
-
-<picture><source media="(max-width: 600px)" srcset="assets/project-flows-mobile.svg" /><img src="assets/project-flows.svg" width="100%" alt="Six project workflows: BlockIT turns file metadata into searchable storage insights; CircuitSleuth verifies PCB regions; Takumi turns recordings into expert-approved lessons; 2D Metaverse lets teammates explore a shared world and start proximity video calls; Synapse visualizes memory updates; RetailPulse converts retail data into segment profiles." /></picture>
+- [Supervised Machine Learning: Regression and Classification](https://coursera.org/verify/PYVPJPP6KXGL)
+- [Advanced Learning Algorithms](https://coursera.org/verify/LYUZK160D8N7)
+- [Unsupervised Learning, Recommenders, Reinforcement Learning](https://coursera.org/verify/PBVJQMLLHWXM)
 
 <details>
-<summary><b>Go deeper: architecture, design choices, and demo boundaries</b></summary>
+<summary>Project diagrams</summary>
 
-### [BlockIT](https://github.com/ISHPREET0101/BlockIT)
+### BlockIT
 
 ```mermaid
 flowchart LR
@@ -79,9 +77,7 @@ flowchart LR
   F --> G[Explorer search]
 ```
 
-Scans file metadata; filename search does not inspect document contents.
-
-### [CircuitSleuth](https://github.com/ISHPREET0101/circuitsleuth1)
+### CircuitSleuth
 
 ```mermaid
 flowchart LR
@@ -95,9 +91,7 @@ flowchart LR
   F -->|Capture needed| H[Operator review / new capture]
 ```
 
-Collaborative project. Published benchmark uses seeded synthetic boards; it is not factory accuracy.
-
-### [Takumi](https://github.com/ISHPREET0101/takumi)
+### Takumi
 
 ```mermaid
 flowchart LR
@@ -109,9 +103,7 @@ flowchart LR
   F --> G[Guided practice and attempts]
 ```
 
-Hosted browser demo uses a bundled sample. Custom uploads and AI processing require the local backend.
-
-### [2D Metaverse](https://2d-metaverse-se.vercel.app/)
+### 2D Metaverse
 
 ```mermaid
 flowchart LR
@@ -121,9 +113,7 @@ flowchart LR
   D --> E[Automatic proximity video call]
 ```
 
-This diagram shows the public-facing user flow described on the demo landing page. Source is private; the project link opens the live demo. Camera and microphone use is optional when joining.
-
-### [Synapse Memory Lab](https://github.com/ISHPREET0101/synapse-memory-lab-dataforge-2026)
+### Synapse Memory Lab
 
 ```mermaid
 flowchart LR
@@ -134,9 +124,7 @@ flowchart LR
   C --> F[Load and interference experiment]
 ```
 
-Collaborative educational toy simulations; no official BDH checkpoint or trained-model benchmark is run.
-
-### [RetailPulse AI](https://github.com/ISHPREET0101/ML-PROJECT)
+### RetailPulse AI
 
 ```mermaid
 flowchart LR
@@ -148,54 +136,4 @@ flowchart LR
   E --> G[Export analysis artifacts]
 ```
 
-Classifier evaluation measures agreement with the selected segmentation model, not causal business lift.
-
 </details>
-
-## More builds & collaborations
-
-| Project | What it explores | Stack / context |
-| :--- | :--- | :--- |
-| [DeltaProof](https://github.com/sgoel2be24-cyber/deltaproof) | Local semantic retrieval of scope clauses, cited evidence, and reviewer-driven cost/schedule simulation | Collaboration · TypeScript, MiniLM, Transformers.js, ONNX/WASM |
-| [Teachable Voice](https://github.com/ISHPREET0101/prism-teachable-voice) | Teach an Android task by demonstration, then replay it from a spoken command | Team project · Android, Kotlin, accessibility APIs |
-| [JOY PITWALL](https://github.com/ISHPREET0101/joy-pitwall) | Offline race-weekend planning, stint logs, setup sheets, and engineering calculators | Electron, TypeScript · local data |
-| [Aegis Alpha](https://github.com/ISHPREET0101/alpaca-AI-Hackathon) | Explainable options-agent architecture with deterministic risk gates and an audit trail | Python, SQLite, Streamlit · paper trading only |
-
-<details>
-<summary><b>Browse the wider project shelf</b></summary>
-
-- [Multimodal Sentiment Analysis](https://github.com/ISHPREET0101/Multimodel-Sentiment-Analysis)
-- [SmartCart](https://github.com/ISHPREET0101/SmartCart)
-- [ShopIQ](https://github.com/ISHPREET0101/ShopIQ)
-- [Loan Approval Project](https://github.com/ISHPREET0101/Loan-Approval-Project)
-- [AQI Project](https://github.com/ISHPREET0101/AQI-PROJECT)
-- [Portfolio Risk Analyzer](https://github.com/ISHPREET0101/portfolio-risk-analyzer)
-- [Ecommerce](https://github.com/ISHPREET0101/Ecommerce)
-- [Mental Health Support System](https://github.com/ISHPREET0101/Mental-Health-Support-System)
-- [AI Lab Experiments](https://github.com/ISHPREET0101/AI-Lab-Experiments)
-- [JavaScript Projects](https://github.com/ISHPREET0101/JS-projects)
-
-[View all public repositories →](https://github.com/ISHPREET0101?tab=repositories&type=public)
-
-</details>
-
-## Learning & milestones
-
-**Finalist — DATA FORGE, IIT Kharagpur** · [Synapse Memory Lab](https://github.com/ISHPREET0101/synapse-memory-lab-dataforge-2026)
-
-**Machine Learning Specialization coursework — DeepLearning.AI & Stanford Online, via Coursera**
-
-| Course | Credential |
-| :--- | :--- |
-| Supervised Machine Learning: Regression and Classification | [May 2026 ↗](https://coursera.org/verify/PYVPJPP6KXGL) |
-| Advanced Learning Algorithms | [August 2026 ↗](https://coursera.org/verify/LYUZK160D8N7) |
-| Unsupervised Learning, Recommenders, Reinforcement Learning | [August 2026 ↗](https://coursera.org/verify/PBVJQMLLHWXM) |
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/ishpreet-singh-351224322"><img src="assets/connect.svg" width="100%" alt="Have an interesting problem to build around? Connect with Ishpreet about applied AI, thoughtful tools, and software people can understand." /></a>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/ishpreet-singh-351224322">LinkedIn</a> ·
-  <a href="https://github.com/ISHPREET0101?tab=repositories">Explore my repositories</a>
-</p>

@@ -1,25 +1,13 @@
-# Profile maintenance
+# Profile notes
 
-Updated: 2026-10-29.
+Updated 2026-10-29.
 
-## Design
+Edit README.md directly. It uses GitHub's normal Markdown styling. The previous banner, marketing copy and generated SVG cards were removed at the user's request for a more natural personal profile. The old artwork remains recoverable in Git history.
 
-Custom midnight-blue vector artwork with mint, ice-blue, violet and warm-gold accents. All graphics are stored in this repository, with mobile variants selected through picture/source. Plain-text introductions, image descriptions and expandable Markdown preserve readability beyond the artwork. No third-party stats card, visitor counter, tracking pixel, scheduled workflow or secret is required.
+The screenshots come from the linked public Takumi and CircuitSleuth repositories. The six diagrams are kept inside an expandable section; projects.json records the matching flows and source limits.
 
-Structural inspiration, without copying artwork or prose:
-- [DenverCoder1](https://github.com/DenverCoder1/DenverCoder1): separate featured work, collaborations and tools.
-- [Caneco](https://github.com/caneco/caneco): concise identity and professional focus.
-- [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme): visual presentation patterns.
+Content comes from the supplied resume and the public project documentation reviewed on 2026-10-29. The DataForge finalist statement is from the resume, not a fresh organizer-list check. Certificate links are retained without claiming fresh credential verification. Collaborative projects are identified in the README.
 
-## Content sources and limits
+2D Metaverse uses only the public demo's visible features. Its repository remains private; no private implementation details are published. CALL-E is excluded. Takumi's hosted sample, Synapse's toy simulations, CircuitSleuth's synthetic benchmark and Aegis Alpha's paper-trading scope remain labeled.
 
-- Identity, education, skills, certificates and finalist milestone: supplied resume. The finalist statement is resume-supplied; it was not independently verified against an organizer list.
-- Featured projects and workflow diagrams: public project READMEs inspected on 2026-10-29. The 2D Metaverse entry uses only features visible on its public demo landing page: names, avatars, walking, teammates, optional camera/microphone and proximity video calls. It shows a user flow rather than private implementation architecture. Diagrams do not certify new runtime tests.
-- CircuitSleuth, Synapse, Teachable Voice and DeltaProof are explicitly presented as collaborative work. Linking a repository does not attribute its entire implementation to one person.
-- BlockIT release availability was checked through GitHub's releases API. Other application runtime, model metrics and hosted backends were not retested to build this profile.
-- Takumi's public site is sample-only; Synapse runs toy simulations; Aegis Alpha is paper-trading software. The 2D Metaverse link opens its public demo; its source remains private.
-- Private repositories and the resume's phone number are intentionally absent from this public profile.
-
-## Updating
-
-Edit README.md for copy and links. `projects.json` records the six featured systems and their conceptual flows. Assets are accessible SVGs; keep their titles/descriptions in sync with the README. When changing project claims, recheck the linked repository first. GitHub renders the expanded Mermaid blocks natively.
+No personal contact details, activity counters, stats services or scheduled workflows are added. The existing account email setting is unchanged.
