@@ -1,37 +1,78 @@
-# Hi, I'm Ishpreet
+# Ishpreet Singh Dhamija
 
 I'm a Computer Engineering student at **Thapar Institute of Engineering and Technology, Patiala**. I work with Python and TypeScript, mostly on machine learning projects, web apps, and desktop software.
 
-This is a mix of coursework, hackathon projects, and apps I've worked on. Some are team projects; the linked repositories have the contributors and setup details.
+This GitHub has a mix of coursework, hackathon projects, and apps I've worked on with teammates.
 
-[LinkedIn](https://www.linkedin.com/in/ishpreet-singh-351224322)
+[![LinkedIn](assets/linkedin.svg)](https://www.linkedin.com/in/ishpreet-singh-351224322)
+
+## 🔭 Currently
+
+My focus is machine learning and software development. A few parts of that work:
+
+- 🧠 Local inference and semantic search in [DeltaProof](https://github.com/sgoel2be24-cyber/deltaproof).
+- 🛠️ Desktop tools, including [BlockIT](https://github.com/ISHPREET0101/BlockIT).
+- 🌐 Interactive browser projects like [2D Metaverse](https://2d-metaverse-se.vercel.app/) and [Synapse Memory Lab](https://ishpreet0101.github.io/synapse-memory-lab-dataforge-2026/).
 
 ## Projects
 
-- **[2D Metaverse](https://2d-metaverse-se.vercel.app/)** — A shared virtual office where you choose an avatar and walk around with teammates. Move close to someone and a video call starts. The link opens the demo; the source is private.
+### [2D Metaverse](https://2d-metaverse-se.vercel.app/)
 
-- **[BlockIT](https://github.com/ISHPREET0101/BlockIT)** — A Windows storage explorer for finding files and seeing what's taking up disk space. Built with Electron, React, TypeScript and SQLite. [Download](https://github.com/ISHPREET0101/BlockIT/releases/latest).
+A shared virtual office where you choose an avatar and walk around with teammates. Move close to someone and a video call starts. The link opens the demo; the source is private.
 
-- **[Takumi](https://github.com/ISHPREET0101/takumi)** — Turns a recorded demonstration into a lesson that an expert can edit and approve, with guided practice for the learner. React frontend, Python/FastAPI backend. [Try the sample](https://takumi-two-kohl.vercel.app/); processing your own recordings needs the local backend.
+```mermaid
+flowchart LR
+  A["Choose an avatar"] --> B["Join the world"] --> C["Approach a teammate"] --> D["Video call"]
+```
 
-- **[CircuitSleuth](https://github.com/ISHPREET0101/circuitsleuth1)** — A team project for PCB inspection using OpenCV. It compares a board against a reference, checks suspicious regions, and keeps the evidence for review. The documented benchmark uses synthetic boards.
+### [BlockIT](https://github.com/ISHPREET0101/BlockIT)
 
-- **[Synapse Memory Lab](https://github.com/ISHPREET0101/synapse-memory-lab-dataforge-2026)** — An interactive explanation of attention and memory, built as a team project for DataForge. Change decay or memory load and watch what happens in the toy simulations. [Open the labs](https://ishpreet0101.github.io/synapse-memory-lab-dataforge-2026/).
+A Windows storage explorer for finding files and seeing what's taking up disk space. Built with Electron, React, TypeScript and SQLite. [Download](https://github.com/ISHPREET0101/BlockIT/releases/latest).
 
-- **[RetailPulse AI](https://github.com/ISHPREET0101/ML-PROJECT)** — Retail customer segmentation using RFM features and clustering. The notebook covers data checks, model comparisons, and customer segment profiles.
+```mermaid
+flowchart LR
+  A["Choose a drive"] --> B["Scan metadata"] --> C["SQLite index"] --> D["Search and treemap"]
+```
 
-<details>
-<summary>A couple of screenshots</summary>
+### [Takumi](https://github.com/ISHPREET0101/takumi)
 
-**Takumi:** the oscilloscope practice screen in the sample lesson.
+Turns a recorded demonstration into a lesson that an expert can edit and approve, with guided practice for the learner. React frontend, Python/FastAPI backend. [Try the sample](https://takumi-two-kohl.vercel.app/); processing your own recordings needs the local backend.
 
-![Takumi practice screen](https://raw.githubusercontent.com/ISHPREET0101/takumi/main/docs/screenshots/refined/practice-1440.png)
+```mermaid
+flowchart LR
+  A["Expert recording"] --> B["Transcribe and draft"] --> C["Expert review"] --> D["Guided practice"]
+```
 
-**CircuitSleuth:** the inspection workspace, with board regions and the agent's evidence trail.
+![Takumi sample practice screen](https://raw.githubusercontent.com/ISHPREET0101/takumi/main/docs/screenshots/refined/practice-1440.png)
+
+### [CircuitSleuth](https://github.com/ISHPREET0101/circuitsleuth1)
+
+A team project for PCB inspection using OpenCV. It compares a board against a reference, checks suspicious regions, and keeps the evidence for review. The documented benchmark uses synthetic boards.
+
+```mermaid
+flowchart LR
+  A["Board and reference"] --> B["Align and detect"] --> C["Verify regions"] --> D["Evidence and review"]
+```
 
 ![CircuitSleuth inspection workspace](https://raw.githubusercontent.com/ISHPREET0101/circuitsleuth1/main/docs/screenshots/workspace.png)
 
-</details>
+### [Synapse Memory Lab](https://github.com/ISHPREET0101/synapse-memory-lab-dataforge-2026)
+
+An interactive explanation of attention and memory, built as a team project for DataForge. Change decay or memory load and watch what happens in the toy simulations. [Open the labs](https://ishpreet0101.github.io/synapse-memory-lab-dataforge-2026/).
+
+```mermaid
+flowchart LR
+  A["Token stream"] --> B["Update memory"] --> C["Read state"] --> D["Compare outputs"]
+```
+
+### [RetailPulse AI](https://github.com/ISHPREET0101/ML-PROJECT)
+
+Retail customer segmentation using RFM features and clustering. The notebook covers data checks, model comparisons, and customer segment profiles.
+
+```mermaid
+flowchart LR
+  A["Retail data"] --> B["RFM features"] --> C["Compare clusters"] --> D["Segment profiles"]
+```
 
 ## Tools I use
 
@@ -62,78 +103,8 @@ Completed these courses from DeepLearning.AI and Stanford Online on Coursera:
 - [Advanced Learning Algorithms](https://coursera.org/verify/LYUZK160D8N7)
 - [Unsupervised Learning, Recommenders, Reinforcement Learning](https://coursera.org/verify/PBVJQMLLHWXM)
 
-<details>
-<summary>Project diagrams</summary>
+## My contributions
 
-### BlockIT
+![My GitHub contribution calendar with a snake animation](assets/contributions.svg)
 
-```mermaid
-flowchart LR
-  A[Drive or folder] --> B[Metadata scanner worker]
-  B --> C[(SQLite scan index)]
-  C --> D[Query worker]
-  D --> E[React views and treemap]
-  A --> F[Filename index worker]
-  F --> G[Explorer search]
-```
-
-### CircuitSleuth
-
-```mermaid
-flowchart LR
-  A[Reference and test board] --> B{Registration valid?}
-  B -->|No| C[NOT_EVALUABLE]
-  B -->|Yes| D[Detect candidate regions]
-  D --> E[Agent chooses verification tool]
-  E --> F{Enough evidence?}
-  F -->|More needed| E
-  F -->|Yes| G[Verdict with evidence]
-  F -->|Capture needed| H[Operator review / new capture]
-```
-
-### Takumi
-
-```mermaid
-flowchart LR
-  A[Expert recording] --> B[Local transcription]
-  B --> C[Lesson extraction adapter]
-  C --> D[Validate transcript evidence]
-  D --> E[Expert edits and approves]
-  E --> F[Versioned lesson]
-  F --> G[Guided practice and attempts]
-```
-
-### 2D Metaverse
-
-```mermaid
-flowchart LR
-  A[Enter a name and choose an avatar] --> B[Join the shared world]
-  B --> C[Walk around and meet teammates]
-  C --> D[Move close to another player]
-  D --> E[Automatic proximity video call]
-```
-
-### Synapse Memory Lab
-
-```mermaid
-flowchart LR
-  A[Deterministic token stream] --> B[Read prior memory]
-  B --> C[Outer-product state update]
-  C --> D[Neuron and synapse canvases]
-  B --> E[Explicit-history comparison]
-  C --> F[Load and interference experiment]
-```
-
-### RetailPulse AI
-
-```mermaid
-flowchart LR
-  A[Customers / products / sales] --> B[Validate relational data]
-  B --> C[RFM and behavioral features]
-  C --> D[Compare clustering models]
-  D --> E[Interpretable segment profiles]
-  D --> F[Segment-assignment classifier]
-  E --> G[Export analysis artifacts]
-```
-
-</details>
+<sub>Contribution snapshot: 29 October 2026. The snake is a decorative animation over the calendar.</sub>
