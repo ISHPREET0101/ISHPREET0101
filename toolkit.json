@@ -1,0 +1,88 @@
+[
+  {
+    "category": "Languages",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "JavaScript",
+      "Kotlin",
+      "SQL",
+      "C++",
+      "C"
+    ]
+  },
+  {
+    "category": "Machine learning & data",
+    "skills": [
+      "pandas",
+      "NumPy",
+      "scikit-learn",
+      "PyTorch",
+      "OpenCV",
+      "Jupyter",
+      "RFM analysis",
+      "Clustering"
+    ]
+  },
+  {
+    "category": "AI & local inference",
+    "skills": [
+      "NLP",
+      "Sentence embeddings",
+      "Semantic search",
+      "MiniLM",
+      "Transformers.js",
+      "ONNX Runtime",
+      "WebAssembly",
+      "MCP"
+    ]
+  },
+  {
+    "category": "Frontend & desktop",
+    "skills": [
+      "React",
+      "Electron",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Canvas",
+      "Web Workers"
+    ]
+  },
+  {
+    "category": "Backend & storage",
+    "skills": [
+      "FastAPI",
+      "Flask",
+      "REST APIs",
+      "SQLite",
+      "Cloudflare D1",
+      "Drizzle ORM",
+      "Server-Sent Events"
+    ]
+  },
+  {
+    "category": "Android & voice",
+    "skills": [
+      "Android",
+      "AccessibilityService",
+      "SpeechRecognizer",
+      "Gradle",
+      "Voice automation"
+    ]
+  },
+  {
+    "category": "Development, testing & deployment",
+    "skills": [
+      "Git",
+      "GitHub",
+      "Linux",
+      "Vite",
+      "Vitest",
+      "pytest",
+      "Playwright",
+      "Docker",
+      "Vercel"
+    ]
+  }
+]

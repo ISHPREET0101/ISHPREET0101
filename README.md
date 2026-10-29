@@ -116,34 +116,91 @@ Completed these courses from DeepLearning.AI and Stanford Online on Coursera:
 
 ## Toolkit
 
-<p align="center">
-<img src="assets/python.svg" alt="PYTHON" /> <img src="assets/typescript.svg" alt="TYPESCRIPT" /> <img src="assets/kotlin.svg" alt="KOTLIN" /> <img src="assets/cpp.svg" alt="C++" /> <img src="assets/javascript.svg" alt="JAVASCRIPT" /> <img src="assets/sql.svg" alt="SQL" /> <img src="assets/c.svg" alt="C" />
+Technologies and techniques I've used across my coursework and projects.
+
+### Languages
+
+<p>
+<img src="assets/toolkit/python.svg" alt="Python" />
+<img src="assets/toolkit/typescript.svg" alt="TypeScript" />
+<img src="assets/toolkit/javascript.svg" alt="JavaScript" />
+<img src="assets/toolkit/kotlin.svg" alt="Kotlin" />
+<img src="assets/toolkit/sql.svg" alt="SQL" />
+<img src="assets/toolkit/cpp.svg" alt="C++" />
+<img src="assets/toolkit/c.svg" alt="C" />
 </p>
 
-<details>
-<summary><b>AI and local inference</b>: embeddings, retrieval and model integration</summary>
+### Machine learning & data
 
-NLP, sentence embeddings, semantic search, MiniLM, Transformers.js, ONNX Runtime, Android voice automation.
+<p>
+<img src="assets/toolkit/pandas.svg" alt="pandas" />
+<img src="assets/toolkit/numpy.svg" alt="NumPy" />
+<img src="assets/toolkit/scikit-learn.svg" alt="scikit-learn" />
+<img src="assets/toolkit/pytorch.svg" alt="PyTorch" />
+<img src="assets/toolkit/opencv.svg" alt="OpenCV" />
+<img src="assets/toolkit/jupyter.svg" alt="Jupyter" />
+<img src="assets/toolkit/rfm-analysis.svg" alt="RFM analysis" />
+<img src="assets/toolkit/clustering.svg" alt="Clustering" />
+</p>
 
-</details>
+### AI & local inference
 
-<details>
-<summary><b>Machine learning and data</b>: analysis, modelling and evaluation</summary>
+<p>
+<img src="assets/toolkit/nlp.svg" alt="NLP" />
+<img src="assets/toolkit/sentence-embeddings.svg" alt="Sentence embeddings" />
+<img src="assets/toolkit/semantic-search.svg" alt="Semantic search" />
+<img src="assets/toolkit/minilm.svg" alt="MiniLM" />
+<img src="assets/toolkit/transformers-js.svg" alt="Transformers.js" />
+<img src="assets/toolkit/onnx-runtime.svg" alt="ONNX Runtime" />
+<img src="assets/toolkit/webassembly.svg" alt="WebAssembly" />
+<img src="assets/toolkit/mcp.svg" alt="MCP" />
+</p>
 
-pandas, NumPy, scikit-learn, PyTorch, OpenCV, Jupyter, RFM features and clustering.
+### Frontend & desktop
 
-</details>
+<p>
+<img src="assets/toolkit/react.svg" alt="React" />
+<img src="assets/toolkit/electron.svg" alt="Electron" />
+<img src="assets/toolkit/html.svg" alt="HTML" />
+<img src="assets/toolkit/css.svg" alt="CSS" />
+<img src="assets/toolkit/tailwind-css.svg" alt="Tailwind CSS" />
+<img src="assets/toolkit/canvas.svg" alt="Canvas" />
+<img src="assets/toolkit/web-workers.svg" alt="Web Workers" />
+</p>
 
-<details>
-<summary><b>Backend, frontend and storage</b>: apps, APIs and databases</summary>
+### Backend & storage
 
-React, Electron, FastAPI, Flask, REST APIs, SQLite, Cloudflare D1, Drizzle ORM, HTML, CSS, Tailwind CSS and Android AccessibilityService.
+<p>
+<img src="assets/toolkit/fastapi.svg" alt="FastAPI" />
+<img src="assets/toolkit/flask.svg" alt="Flask" />
+<img src="assets/toolkit/rest-apis.svg" alt="REST APIs" />
+<img src="assets/toolkit/sqlite.svg" alt="SQLite" />
+<img src="assets/toolkit/cloudflare-d1.svg" alt="Cloudflare D1" />
+<img src="assets/toolkit/drizzle-orm.svg" alt="Drizzle ORM" />
+<img src="assets/toolkit/server-sent-events.svg" alt="Server-Sent Events" />
+</p>
 
-</details>
+### Android & voice
 
-<details>
-<summary><b>Development tools</b>: version control, workers and testing</summary>
+<p>
+<img src="assets/toolkit/android.svg" alt="Android" />
+<img src="assets/toolkit/accessibilityservice.svg" alt="AccessibilityService" />
+<img src="assets/toolkit/speechrecognizer.svg" alt="SpeechRecognizer" />
+<img src="assets/toolkit/gradle.svg" alt="Gradle" />
+<img src="assets/toolkit/voice-automation.svg" alt="Voice automation" />
+</p>
 
-Git, GitHub, Linux, Web Workers, Vite and Vitest.
+### Development, testing & deployment
 
-</details>
+<p>
+<img src="assets/toolkit/git.svg" alt="Git" />
+<img src="assets/toolkit/github.svg" alt="GitHub" />
+<img src="assets/toolkit/linux.svg" alt="Linux" />
+<img src="assets/toolkit/vite.svg" alt="Vite" />
+<img src="assets/toolkit/vitest.svg" alt="Vitest" />
+<img src="assets/toolkit/pytest.svg" alt="pytest" />
+<img src="assets/toolkit/playwright.svg" alt="Playwright" />
+<img src="assets/toolkit/docker.svg" alt="Docker" />
+<img src="assets/toolkit/vercel.svg" alt="Vercel" />
+</p>
+
