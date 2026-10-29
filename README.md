@@ -11,7 +11,12 @@
 
 <br/>
 
-<p align="center"><a href="#projects">Projects</a> · <a href="#education-and-courses">Education &amp; courses</a> · <a href="#my-contributions">Contributions</a> · <a href="#toolkit">Toolkit</a></p>
+<p align="center">
+<a href="#projects"><img src="assets/nav-projects.svg" alt="Projects" /></a>
+<a href="#education-and-courses"><img src="assets/nav-education-and-courses.svg" alt="Education &amp; courses" /></a>
+<a href="#my-contributions"><img src="assets/nav-my-contributions.svg" alt="Contributions" /></a>
+<a href="#toolkit"><img src="assets/nav-toolkit.svg" alt="Toolkit" /></a>
+</p>
 
 ---
 
